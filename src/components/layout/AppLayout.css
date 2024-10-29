@@ -1,0 +1,25 @@
+.AppLayout {
+    height: 100vh;
+}
+
+.AppLayout > :nth-child(1) {
+    flex-shrink: 0;
+}
+
+.AppLayout > :nth-child(3) {
+    flex-shrink: 1;
+}
+
+.AppLayout > :nth-child(2) {
+    flex: 1;
+    overflow: scroll;
+}
+
+.AppLayout > :nth-child(2)::-webkit-scrollbar {
+    display: none !important;
+}
+
+.AppLayout > :nth-child(3) {
+    position: absolute;
+    bottom: 0px;
+}

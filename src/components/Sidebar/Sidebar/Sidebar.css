@@ -1,0 +1,96 @@
+.home-1,
+.bridge-1,
+.vault-1,
+.trade-1,
+.assets-1,
+.more-info-1 {
+    fill: #f1f1f1;
+}
+
+.home-1-h,
+.bridge-1-h,
+.vault-1-h,
+.trade-1-h,
+.assets-1-h,
+.more-info-1-h,
+/* media icons */
+.medium-1-h,
+.telegram-1-h,
+.twitter-1-h,
+.discord-1-h,
+.reddit-1-h {
+    fill: #039;
+}
+
+.home-2,
+.bridge-2,
+.trade-2,
+.assets-2,
+.more-info-2,
+/* media icons */
+.telegram-2,
+.discord-2,
+.medium-2,
+.twitter-2,
+.reddit-2 {
+    fill: #039;
+}
+
+.home-2-h {
+    fill: #1F0C4E;
+}
+
+.bridge-2-h,
+.trade-2-h,
+.assets-2-h,
+.more-info-2-h,
+/* media icons */
+.medium-2-h,
+.telegram-2-h,
+.twitter-2-h,
+.discord-2-h,
+.reddit-2-h {
+    fill: #fff;
+}
+
+.vault-2 {
+    fill: #039;
+    stroke: #f1f1f1;
+    stroke-miterlimit: 10;
+    stroke-width: 0.25px;
+}
+
+.vault-2-h {
+    fill: #fff;
+    stroke: #039;
+    stroke-miterlimit: 10;
+    stroke-width: 0.25px;
+}
+
+.telegram-1,
+.discord-1,
+.medium-1,
+.twitter-1,
+.reddit-1 {
+    fill: #e8f4ff;
+}
+
+.light-btn-light-h,
+.dark-btn-light-h,
+.lang-icon-light {
+    fill: #039;
+}
+
+.dark-btn-light {
+    fill: #999999;
+}
+
+.dark-btn-dark-h,
+.light-btn-dark-h,
+.lang-icon-dark {
+    fill: #a28bd4;
+}
+
+.light-btn-dark {
+    fill: #fff;
+}

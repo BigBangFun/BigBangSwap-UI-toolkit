@@ -4,6 +4,7 @@ import useIsMobile from '../../../hooks/useIsMobile';
 import { a_h5, i_text_d } from '../../../style';
 import { getColorThemeSelector } from '../../../utils/funcs';
 import CustomButton from '../CustomButton/CustomButton';
+import CssFilterConverter from 'css-filter-converter';
 
 type ConnectButtonProps = {
     Identicon: any;
@@ -45,15 +46,20 @@ const ConnectButton: React.FC<ConnectButtonProps> = (props) => {
             height="32px"
             mr="40px"
             borderRadius="5px"
-            bg="#7F4AFE"
+            bg="#fff"
             onClick={onClick}
-            color={colorTheme('#FFFFFF', 'tertiary.100')}
+            color={colorTheme('#000', 'tertiary.100')}
             text={
                 <Flex direction="row" align="center" justify="center">
                     <Text className={i_text_d} as="span" fontSize="14px" fontWeight={600}>
                         {isMobile ? 'Connect' : 'Connect Wallet'}
                     </Text>
-                    <Image boxSize="14px" src={'/assets/wallet/noWallet.svg'} ml="11px"></Image>
+                    <Image
+                        boxSize="14px"
+                        src={'/assets/wallet/noWallet.svg'}
+                        ml="11px"
+                        filter={CssFilterConverter.hexToFilter(colorTheme('#000', '#DDDAE1')).color!}
+                    ></Image>
                 </Flex>
             }
             {...rest}

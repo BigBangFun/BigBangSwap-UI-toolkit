@@ -199,7 +199,7 @@ export const CustomNumberInput: React.FC<
                     _placeholder={{
                         color: colorTheme('tertiary.500', 'tertiary.200'),
                     }}
-                    color={colorTheme('tertiary.500', 'tertiary.200')}
+                    color={colorTheme('#000', 'tertiary.200')}
                     border="none"
                     paddingLeft={'8px'}
                     paddingRight="8px"
